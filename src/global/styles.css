@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font: 14px 'Open Sans', sans-serif;
+}
+
+a {
+    font: 14px 'Open Sans', sans-serif;
+    /* font-weight: 100; */
+    color: #bababa;
+}
+
+strong {
+    font-family: 'Open Sans', sans-serif;
+}
+
+span {
+    font: 14px 'Open Sans', sans-serif;
+    color: #ffffff;
+}
+
+h4 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h5 {
+    font-size: 18px;
+    font-style: normal;
+    line-height: 23px;
+    font-family: 'Montserrat', sans-serif;
+    color: #272727
+}
+
+body {
+    background-color: #ece6e6;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+li {
+    list-style: none;
+}

@@ -1,0 +1,80 @@
+div .conteudo_area {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+div .conteudo_area h1 {
+    border-bottom: 2px solid #000;
+    margin: 20px;
+    padding: 1px;
+}
+
+div .conteudo_area p {
+    text-align: center;
+    font-size: 18px;
+    width: 600px;
+}
+
+div .itens {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+div .itens section {
+    margin-left: 25px;
+}
+
+div .itens h5 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+div .itens li {
+    list-style: circle;
+    margin-bottom: 10px;
+}
+
+div .itens li a {
+    font-size: 16px;
+    color: #4a4949;
+}
+
+div .itens .item {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    width: 280px;
+}
+
+.conteudo_area h2 {
+    font-size: 32px;
+}
+
+@media screen and (max-width: 908px) {
+    .itens h5 {
+        color: blue;
+    }
+
+    .itens {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* display: grid;
+        grid-template-rows: 2fr;
+        grid-template-columns: auto auto; */
+    }
+
+    .itens .item {
+        margin: 10px 0 10px 0;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .container .conteudo_area p{
+        width: 500px;
+    }
+}

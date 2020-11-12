@@ -1,0 +1,173 @@
+.main {
+    width: 100%;
+    /* border: 1px solid red; */
+    height: 557px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.teste {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-right: 25px;
+    margin-bottom: 20px;
+    z-index: 10;
+}
+
+.main {
+    background: url("https://d3q93wnyp4lkf8.cloudfront.net/revista/post_images/30680/9317090d5f58628412e6ca33b75f676751c6bcdf.jpg?1597000089") center no-repeat;
+    background-size: 100%;
+    opacity: 90%;
+    height: 578px;
+    background-color: #fff;
+}
+
+.container .contato{
+    height: 120px;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contato p {
+    margin-bottom: 10px;
+}
+
+.frase {
+    margin: 100px 0 0 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.frase p {
+    width: 500px;
+    font-size: 18px;
+    color: #4a4949;
+}
+
+.atividades {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.atividades .container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.atividades .container .consulta {
+    display: flex;
+    flex-direction: column;
+}
+
+.atividades .container p {
+    width: 600px;
+    font-size: 18px;
+    padding: 25px;
+}
+
+.atividades .container .consulta h4{
+    font-size: 20px;
+    color: #272727;
+    width: 150px;
+    margin: 20px;
+}
+
+.atividades .container .consulta h5 {
+    width: 280px;
+    padding: 20px;
+    border-top: 1px solid #d0d0d0;
+    color: #474141;
+}
+
+.atividades .container .consulta a {
+    width: 250px;
+    margin: 10px 0 10px 20px;
+    color: #4a4949;
+}
+
+.atividades .container .consulta a:hover {
+    color: #000;
+}
+
+.atividades .container .Links {
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    flex-direction: column;
+    margin-left: 32px;
+}
+
+.atividades .container .Links h1{
+    width: 150px;
+    margin: 20px;
+    color: #474141;
+}
+
+.atividades .container .Links a {
+    width: 180px;
+    margin: 10px 0 10px 20px;
+    color: #4a4949;
+}
+
+.atividades .container .Links a:hover {
+    color: #000;
+}
+
+@media screen and (max-width: 600px) {
+    .main h1 {
+        font-size: 23px;
+    }
+
+    .main {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1190px) {
+    .atividades .img {
+        display: none;
+    }
+
+    .frase {
+        width: 100%;
+        position: relative;
+        right: 390px;
+        bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+   .frase p {
+      width: 90%;
+   }
+   .container .consulta {
+       width: 50%;
+   }
+
+   .container .Links {
+        width: 50%;
+    }
+
+    .main {
+        height: 100vh;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .frase p {
+        width: 97%;
+     }
+
+     .main {
+         height: 300px;
+     }
+}

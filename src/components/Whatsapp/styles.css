@@ -1,0 +1,10 @@
+.teste img {
+    border-radius: 100%;
+    opacity: 80%;
+    /* background-color: #000; */
+    
+}
+
+.teste img:hover {
+    box-shadow: 8px 7px 15px rgba(50, 50, 50, 0.77);
+}

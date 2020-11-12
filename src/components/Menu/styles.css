@@ -1,0 +1,100 @@
+.menu {
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #d0d0d0;
+    /* z-index: 1; */
+    /* background-color: #d0d0d0; */
+    /* position: fixed; */
+}
+
+.menu .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 11px;
+    
+    /* background-image: url("https://w7.pngwing.com/pngs/345/23/png-transparent-lady-justice-coat-of-arms-measuring-scales-person-others-emblem-measuring-scales-law.png") right; */
+}
+
+.menu .logo h1 {
+    width: 350px;
+    text-align: center;
+}
+
+.menu nav {
+    padding-left: 40px;
+}
+
+.menu nav ul {
+    /* border: 1px solid red; */
+    width: 650px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu nav ul li a {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+
+    transition: 0.2s;
+}
+
+.menu nav ul li a:hover {
+    /* color: gray; */
+}
+
+.menu nav ul li a:hover {
+    color: #d7c957;
+}
+
+
+
+@media screen and (max-width: 1190px) {
+    .menu {
+        width: 100%;
+        height: 120px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu .logo {
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .menu {
+        width: 100%;
+        height: 350px;
+    }
+
+    .menu h1 {
+        width: 300px;
+        text-align: center;
+        padding: 0 0 15px 0;
+        border-bottom: 1px solid gray;
+    }
+
+    .menu nav ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu nav ul li {
+        width: 100%;
+        padding: 5px;
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .menu nav ul li a {
+        font-size: 18px;
+    }
+}
